@@ -182,10 +182,8 @@ nav ul li:hover > ul {
   max-width: 100%;
   width: 97%;
   border: 20px;
-  background-color: #cccccc5b;
   border-radius: 5px;
-  align-items: center;
-  position: relative;
+  display: flex;
   padding: 20px;
   margin: auto; }
 
@@ -230,3 +228,12 @@ td {
 
 .text--h4 {
   color: #aa5580; }
+
+.color--whatsapp {
+  color: #00bb2d; }
+
+.color--facebook {
+  color: #3b5998; }
+
+.color--instagram {
+  color: #833AB4; }

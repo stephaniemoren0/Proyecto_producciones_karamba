@@ -207,10 +207,8 @@ nav ul li:hover>ul {
     max-width: 100%;
     width: 97%;
     border: 20px;
-    background-color: $color-secundario;
     border-radius: 5px;
-    align-items: center;
-    position: relative;
+    display: flex;
     padding: 20px;
     margin: auto;
 }
@@ -256,6 +254,14 @@ $encabezados:( h1:$color-texto, h2:$color-titulos, h3:$color-titulos, h4:rgb(170
 @each $type,
 $color in $encabezados {
     .text--#{$type} {
+        color: $color;
+    }
+}
+
+$iconosRedes:( whatsapp:#00bb2d, facebook:#3b5998, instagram:#833AB4);
+@each $type,
+$color in $iconosRedes {
+    .color--#{$type} {
         color: $color;
     }
 }

@@ -16,3 +16,11 @@
     /*monitor*/
     /*estilos*/
 }
+
+$pie:(tablet:600px);
+@each $type,
+$media in $pie {
+    .tamaño--#{$type} {
+        text-align: center;
+    }
+}

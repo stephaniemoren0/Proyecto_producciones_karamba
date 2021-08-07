@@ -146,6 +146,11 @@ nav ul li:hover > ul {
   margin-left: auto;
   margin-top: auto; }
 
+.contenedorPaquetes {
+  width: 100%;
+  padding: 5%;
+  background-color: #cccccc5b; }
+
 .tituloH1 {
   text-align: center; }
 
@@ -194,9 +199,6 @@ nav ul li:hover > ul {
 .imagenTercera {
   width: 100%;
   height: 325px; }
-
-.btn-primary {
-  color: darkgray; }
 
 h4 {
   color: #1c313a;
